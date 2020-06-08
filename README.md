@@ -1,3 +1,2 @@
 # Text-Generation-with-Markov-Chains
-Using first order Markov Chains to generate text using The Adventures of Sherlock Holmes as the corpus.
-
+Using Markov chains to generate text using The Adventures of Sherlock Holmes as the corpus. First and third order Markov chains are implemented, and a considerable improvement is seen in the case of the third order Markov chain.
