@@ -3,7 +3,7 @@ from collections import OrderedDict
 import random
 
 # Getting the txt file of the novel 
-text = open("C:/Users/adity/Desktop/Sherlock.txt", encoding='utf-8')
+text = open("Sherlock.txt", encoding='utf-8')
 cleaned_text_words = []
 # Removing \r and \n in every line that is parsed
 # Also removing any occurences of spaces and empty words  
