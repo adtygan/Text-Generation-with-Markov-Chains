@@ -50,7 +50,7 @@ def generate_text(transition_map, no_of_words, seed1, seed2, seed3, seed4):
         curr_word4 = next_word
     return generated_text
 
-# 3 consecutive words from the corpus are picked as the seeding words
+# 4 consecutive words at random from the corpus are picked as the seeding words
 choice = random.randint(0, len(cleaned_text_words)-3)
 seed1 = cleaned_text_words[choice]
 seed2 = cleaned_text_words[choice+1]
